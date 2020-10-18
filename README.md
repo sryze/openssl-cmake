@@ -1,6 +1,9 @@
 OpenSSL - CMake
 ===============
 
+Prerequisites:
+* [Perl](http://strawberryperl.com/) must be installed
+
 Build OpenSSL with CMake on Windows:
 
 1. Clone this repo
