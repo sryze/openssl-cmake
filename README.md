@@ -4,7 +4,7 @@ OpenSSL - CMake
 Build OpenSSL with CMake on Windows:
 
 1. Clone this repo
-2. Run `mkdir build && cd build && cmake ../ -G "Visual Studio 16 2019`
+2. Run `mkdir build && cd build && cmake ../ -G "Visual Studio 16 2019 -DOPENSSL_SOURCE_DIR=path/to/openssl-x.y.z -DOPENSSL_ARCH=AMD64 -DOPENSSL_CONFIG=shared`
 3. Open openssl.sln in Visual Studio and build it
 
 Options:
